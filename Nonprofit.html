@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Application</title>
+</head>
+<style>
+    body{
+        background-color: cadetblue;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        /* border: thin solid blue; */
+        align-items: center;
+    }
+    #links{
+        display: flex;
+        justify-content: space-between;
+        gap:1em;
+        list-style-type: none;
+    }
+    #links a{
+        text-decoration: none;
+        color: #fff;
+    }
+    #links a:hover{
+        color: red;
+        /* border: thick solid blue; */
+        border-top: thick solid orange;
+    }
+    #links a:active{
+        color: yellow;
+    }
+    .button{
+        background-color: aquamarine;
+    }
+    .body-designs{
+     display: flex;
+      justify-content: space-between;
+      justify-content: space-around;
+      align-items: center;      
+    }
+    .letters{
+        /* border: thin solid red; */
+         position: absolute;
+         right: 65%;
+         top: 20%;
+    }
+</style>
+<body>
+    <header>
+        <div class="name">
+        <h5>EMMY'S</h5>
+        <h5 style="position: absolute; top:20px;">Blog</h5>
+        </div>
+        <ul id="links">
+            <a href="#"><li>features</li>
+            <div>
+                <a href=""></a>
+                <a href="">Scholarship</a>
+                <a href="">Vacation</a>
+            </div></a>
+            <a href="#"><li>solution</li></a>
+            <a href="#"><li>Plans</li></a>
+            <a href="#"> <li>Pricing</li></a>
+            <a href="#"><li>Resources</li></a>
+        </ul>
+        <div class="button">
+        <button style="position: absolute; right: 100px ;">Log in</button>
+        <button>blogs</button>
+        </div>
+    </header>
+    <main class="body-designs">
+        <div class="letters">
+    <h1>Bring all your</h1>
+    <h1>tasks, teammate, and</h1>
+    <h1>tools together</h1>
+    <h5>keep everything in the same place even if your mate isnt</h5>
+     <input type="email" placeholder="Email" importance  style="height: 5vh;"></span><input type="submit" value="sign-up" style="height: 6vh; width: 20%;">
+       </div>
+    <div class="image">
+        <img src="../image/edward-cisneros-KoKAXLKJwhk-unsplash.jpg" alt="" style="width: 30%; position: fixed;right: 10%; top: 25%; height: 70vh;">
+    </div>
+    <!-- <video src="../video/3. Styling_Text__CSS_Fundamentals__Build_Responsive_Real-World_Websites_with_HTML_and_CSS.MP4"></video> -->
+</main>
+</body>
+</html>
